@@ -1,0 +1,244 @@
+html,body{
+  padding:0;
+  margin:0;
+  border:0;
+}
+html{
+  height:100%;
+}
+li{
+  list-style: none;
+}
+.clear{
+  clear:both;
+}
+div.weui_tabbar{
+  position: fixed;
+}
+button.weui_btn_default{
+  background-color: #fff;
+  border: solid 1px #c8d2dc;
+}
+button.weui_btn{
+  height:40px;
+  line-height: 40px;
+}
+.weui_btn.weui_btn_mini{
+  width:96px;
+}
+.weui-btn.weui-btn_primary, .weui_btn.weui_btn_primary{
+  background-color: #00a6ac;
+  color:#fff;
+}
+
+.button{
+  background: #00a6ac;
+  color: #ffffff;
+}
+// .weui_btn_primary:active{
+//   background-color: #00a6ac;
+// }
+.page-submit-btn{
+  position: fixed;
+  bottom:0px;
+  border:0;
+  width:100%;
+  height:50px;
+  line-height: 50px;
+  background-color: #00a6ac;
+  color:#fff;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+.cl-module{
+  margin:15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.cl-m-header{
+  padding-left: 30px;
+  height:40px;
+  line-height: 40px;
+  background-color: #60c9cf;
+  font-size:18px;
+  color: #ffffff;
+}
+
+.cl-m-body{
+  padding:15px;
+}
+
+.weui_tabbar .iconfont{
+  height:24px;
+  width:24px;
+  display: inline-block;
+  text-align: center;
+  font-size:18px;
+  color:#c8d2dc;
+}
+
+.weui_tabbar .weui_tabbar_label{
+  color:#c8d2dc;
+}
+
+.weui_tabbar .weui_tabbar_item.weui_bar_item_on{
+  .weui_tabbar_label{
+    color:#00a6ac;
+  }
+  .iconfont{
+    color:#00a6ac;
+  }
+}
+.main-content{
+  margin-bottom: 60px;
+}
+
+.course-cover-img{
+  height: 53.33vw;
+}
+
+.label-match {
+  .cl-m-header{
+    text-align: center;
+    font-size: 17px;
+  }
+  .label-list{
+    margin-bottom: 30px;
+  }
+  .label-item{
+    margin-top: 30px;
+    margin-left:15px;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 6px;
+  	background-color: #ffffff;
+  	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  .label-item:first-child{
+    margin-top:15px;
+  }
+
+  .label-item h3{
+    font-size: 20px;
+    font-weight: normal;
+    color:#6C7B8A;
+  }
+
+  .label-item p{
+    font-size: 13px;
+    color:#C8D2DC;
+    margin-top:10px;
+  }
+  .label-item.active{
+    box-shadow: none;
+    background: #00a6ac;
+    h3,p{
+      color:#fff;
+    }
+  }
+  .label-item.disabled{
+    box-shadow: none;
+    background: #c8d2dc;
+    h3,p{
+      color:#fff;
+    }
+  }
+}
+
+.r-detail-info{
+  margin-left: 4vw;
+  margin-right:4vw;
+
+  .cl-m-body{
+    padding:0;
+  }
+
+  .detail-top{
+    position: relative;
+    height: 53.33vw;
+    overflow: hidden;
+    img{
+      width:100%;
+    }
+    .label-info{
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      font-size: 12px;
+      color: #fff;
+      text-align: right;
+    }
+    .title{
+      position: absolute;
+      left: 15px;
+      bottom:15px;
+      font-size:18px;
+      color: #fff;
+      height:24px;
+      line-height: 24px;
+    }
+    .price{
+      position: absolute;
+      right: 15px;
+      bottom:15px;
+      color:#fff;
+    }
+    .mask{
+      position: absolute;
+      top:0;
+      left:0;
+      right:0;
+      bottom:0;
+      background-color: rgba(50, 59, 70, 0.3);
+    }
+  }
+  .detail-content{
+    margin:15px;
+    margin-top:13px;
+
+    .description{
+      float: left;
+      width:80%;
+      font-size: 14px;
+      color:#323b46;
+    }
+    .favorite{
+      float: right;
+      width:17%;
+      text-align: center;
+      color:#c8d2dc;
+      p{
+        font-size: 14px;
+      }
+
+      .focus{
+        color:#60c9cf;
+      }
+    }
+
+    .icon-favorite{
+      font-size: 22px;
+    }
+  }
+}
+
+.coupon-covert .weui-dialog{
+  background-color: transparent;
+}
+div.xj-textarea{
+  border:1px solid #efeff4;
+}
+
+div.weui-tabbar{
+  position: fixed;
+}
+.swiper{
+  .active{
+  }
+  .vux-icon-dot{
+  }
+}
